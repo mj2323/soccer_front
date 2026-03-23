@@ -5,7 +5,7 @@ export default function Home() {
   const [matches, setMatches] = useState([]);
 
   useEffect(() => {
-    fetch("여기에_Render_URL/matches")
+    fetch("https://soccer-api-test.onrender.com/matches")
       .then(res => res.json())
       .then(data => setMatches(data));
   }, []);
