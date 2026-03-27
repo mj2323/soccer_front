@@ -15,6 +15,7 @@ export default function Home() {
 
   return (
     <div style={{ padding: "20px" }}>
+      <h1 className="text-3xl text-red-500">Tailwind 테스트</h1>
       <h1>⚽ 이번 주 경기</h1>
 
       {matches.map((m: any, i) => (
